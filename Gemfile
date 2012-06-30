@@ -4,6 +4,10 @@ gem 'rails', '3.2.6'
 
 gem 'heroku'
 
+group :production do
+  gem 'pg'
+end
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
