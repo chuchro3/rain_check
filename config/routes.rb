@@ -1,7 +1,9 @@
 RainCheck::Application.routes.draw do
+  get "pages/funny"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
-  match 'rebecca' => 'application#funny'
+  match 'rebecca' => 'pages#funny'
   # Sample of regular route:
   #   match 'products/:id' => 'application#funny'
   # Keep in mind you can assign values other than :controller and :action
